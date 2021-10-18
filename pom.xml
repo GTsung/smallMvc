@@ -6,7 +6,11 @@
 
     <groupId>com.home</groupId>
     <artifactId>smallMvc</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>small-step-mvc</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
