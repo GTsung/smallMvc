@@ -16,7 +16,8 @@ import java.util.Map;
  * @author GTsung
  * @date 2021/10/18
  */
-public class ServletWebServerApplicationContext extends GenericWebApplicationContext implements WebServerApplicationContext {
+public class ServletWebServerApplicationContext
+        extends GenericWebApplicationContext implements WebServerApplicationContext {
 
     //定义WebServer，这是SpringBoot中的类，有多个实现：Tomcat，jetty等等
     private WebServer webServer;

@@ -11,6 +11,8 @@
     <modules>
         <module>small-step-mvc</module>
         <module>small-step-boot-configure</module>
+        <module>small-step-boot-mvc-starter</module>
+        <module>small-step-boot-mvc-demo</module>
     </modules>
 
     <properties>
